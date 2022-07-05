@@ -1,11 +1,7 @@
----
-title: Recuperación de Información
-lang: es-MX
-
-...
+# Recuperación de Información
 
 
-# Introducción
+## Introducción
 
 La RI es un área especializada en proporcionar algoritmos, y sistemas en última instancia, que sean capaces de encontrar información de utilidad a un usuario así como también organizar la información de una colección para facilitar el acceso a la misma. En otras palabras, el fin es simplificar el acceso al conocimiento contenido en una colección de datos. Los datos pueden ser de diferentes índoles, pero es de especial importancia para la RI aquellos donde un humano puede tener más dificultados, esto es grandes colecciones de datos, y en especial en datos semi-estructurados o no estructurados (e.g., texto escrito en lenguaje natural).
 
@@ -24,14 +20,11 @@ A lo largo de los temas se abordarán darán detalles teóricos sobre los proble
 1. [Introducción](Unidades/index.html)
 2. [Búsqueda de texto completo](Unidades/index.html)
 3. [Búsqueda en espacios métricos](Unidades/index.html)
-4. [Modelado léxico de texto](Unidades/index.html)
-5. [Optimización de la búsqueda](Unidades/index.html)
-6. [Modelado semántico del texto](Unidades/index.html)
-7. [Búsqueda en otros tipos de datos](Unidades//index.html)
-8. [Reducción de dimensión y visualización](Unidades/index.html)
-9. [Agrupamiento](Unidades/index.html)
-10. [Clasificación](Unidades/index.html)
-11. [Proyecto integrador](Unidades/index.html)
+4. [Agrupamiento y clasificación](Unidades/index.html)
+5. [Modelado léxico de texto y su efecto en el desempeño del índice invertido](Unidades/index.html)
+6. [Modelado semántico del texto y búsqueda de otros tipos de datos](Unidades/index.html)
+7. [Reducción de dimensión y visualización](Unidades/index.html)
+8. [Proyecto integrador](Unidades/index.html)
 
 ## Sobre el lenguaje de programación
 
