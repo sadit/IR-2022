@@ -19,9 +19,9 @@ A lo largo de los temas se abordarán darán detalles teóricos sobre los proble
 ## Temario
 1. [Introducción](Unidades/index.html)
 2. [Búsqueda de texto completo](Unidades/index.html)
-3. [Búsqueda en espacios métricos](Unidades/index.html)
-4. [Agrupamiento y clasificación](Unidades/index.html)
-5. [Modelado léxico de texto y su efecto en el desempeño del índice invertido](Unidades/index.html)
+3. [Modelado léxico de texto y su efecto en el desempeño del índice invertido](Unidades/index.html)
+4. [Búsqueda en espacios métricos](Unidades/index.html)
+5. [Agrupamiento y clasificación](Unidades/index.html)
 6. [Modelado semántico del texto y búsqueda de otros tipos de datos](Unidades/index.html)
 7. [Reducción de dimensión y visualización](Unidades/index.html)
 8. [Proyecto integrador](Unidades/index.html)
