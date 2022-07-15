@@ -1,6 +1,5 @@
 # Recuperación de Información
 
-
 ## Introducción
 
 La RI es un área especializada en proporcionar algoritmos, y sistemas en última instancia, que sean capaces de encontrar información de utilidad a un usuario así como también organizar la información de una colección para facilitar el acceso a la misma. En otras palabras, el fin es simplificar el acceso al conocimiento contenido en una colección de datos. Los datos pueden ser de diferentes índoles, pero es de especial importancia para la RI aquellos donde un humano puede tener más dificultados, esto es grandes colecciones de datos, y en especial en datos semi-estructurados o no estructurados (e.g., texto escrito en lenguaje natural).
@@ -17,31 +16,13 @@ En particular, estará trabajando en las siguientes vertientes de la recuperaci�
 A lo largo de los temas se abordarán darán detalles teóricos sobre los problemas y los algoritmos, así como también se motivará al estudiante a realizar sus propias implementaciones. Se ealizarán análisis experimentales de los mismos y reportes.
 
 ## Temario
-1. [Introducción](Unidades/index.html)
-2. [Búsqueda de texto completo](Unidades/index.html)
-3. [Modelado léxico de texto y su efecto en el desempeño del índice invertido](Unidades/index.html)
-4. [Búsqueda en espacios métricos](Unidades/index.html)
-5. [Agrupamiento y clasificación](Unidades/index.html)
-6. [Modelado semántico del texto y búsqueda de otros tipos de datos](Unidades/index.html)
-7. [Reducción de dimensión y visualización](Unidades/index.html)
-8. [Proyecto integrador](Unidades/index.html)
-
-## Sobre el lenguaje de programación
-
-En princpio casi cualquier lenguaje de programación podría utilizarse para el curso, sin embargo, para efectos prácticos, nos limitaremos a dos lenguajes de programación:
-
-- Python, se recomieda utilizar la distribución de https://www.anaconda.com/download/
-- Julia, se recomienda utilizar la versión 1.6, o superior, https://julialang.org/
-
-Ambos lenguajes de programación son fáciles de aprender y altamente productivos. Python es un lenguaje excelente para realizar prototipos, o para cuando existen bibliotecas que resuelvan el problema que se este enfrentando. En particular, los ejemplos de código se harán en Julia.
-
-Se hará uso intensivo de Jupyter Notebook (https://jupyter.org/) o JupyterLab (https://github.com/jupyterlab/jupyterlab). También se pedirá que se realicen tareas con el mismo framework.
-
-**Nota:** Aprender a programar no es el objetivo de este curso, por lo que si es necesario, el alumno deberá fortalecer sus capacidades con auto estudio. Sin embargo, se anima a la discusión en los foros sobre cualquier problema, ya sea de programación o relacionado a los conceptos y problemas del curso.
-
-### Recursos para aprender Python y Julia
-
-- Documentación oficial, comenzar por el tutorial https://docs.python.org/3/
-- Documentación oficial https://docs.julialang.org/en/stable/
-- Curso "Introduction to computational thinking" https://computationalthinking.mit.edu/Fall20/
-- Think Julia: How to Think Like a Computer Scientist https://benlauwens.github.io/ThinkJulia.jl/latest/book.html
+0. [Metodología y configuración del ambiente](https://github.com/sadit/IR-2022/blob/main/Unidades/u00.ipynb)
+1. [Introducción](https://github.com/sadit/IR-2022/blob/main/Unidades/u01.ipynb)
+2. [Búsqueda de texto completo](https://github.com/sadit/IR-2022/blob/main/Unidades/u02.ipynb)
+3. [Modelado léxico de texto y su efecto en el desempeño del índice invertido](https://github.com/sadit/IR-2022/blob/main/Unidades/u03.ipynb)
+4. [Búsqueda en espacios métricos](https://github.com/sadit/IR-2022/blob/main/Unidades/u04.ipynb)
+5. [Modelado semántico del vocabulario](https://github.com/sadit/IR-2022/blob/main/Unidades/u05.ipynb)
+6. [Búsqueda semántica](https://github.com/sadit/IR-2022/blob/main/Unidades/u06.ipynb)
+7. [Búsqueda semántica con nubes de puntos](https://github.com/sadit/IR-2022/blob/main/Unidades/u07.ipynb)
+8. [Agrupamiento y visualización de información textual](https://github.com/sadit/IR-2022/blob/main/Unidades/u08.ipynb)
+9. [Proyecto integrador](https://github.com/sadit/IR-2022/blob/main/Unidades/u09.ipynb)
