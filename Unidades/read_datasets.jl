@@ -1,3 +1,6 @@
+using CodecZlib, JSON
+using Downloads: download
+
 function create_dataset(corpusfile, text, label)
     corpus, labels = String[], String[]
     open(corpusfile) do f
@@ -23,4 +26,10 @@ function read_news()
     train = "spanish-twitter-news-and-opinions-top25-68.train.json.gz"
     test = "spanish-twitter-news-and-opinions-top25-68.test.json.gz"
     create_dataset(get_dataset(train), "text", "screen_name"), create_dataset(get_dataset(test), "text", "screen_name")
+end
+
+function read_emojispace()
+    train = "emojispace.train.json.gz"
+    test = "emojispace.test.json.gz"
+    create_dataset(get_dataset(train), "text", "klass"), create_dataset(get_dataset(test), "text", "klass")
 end
