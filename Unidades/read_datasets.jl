@@ -33,3 +33,7 @@ function read_emojispace()
     test = "emojispace.test.json.gz"
     create_dataset(get_dataset(train), "text", "klass"), create_dataset(get_dataset(test), "text", "klass")
 end
+
+function get_julia_packages()
+    get_dataset("julia-packages-info-2022-07-18.zip")
+end
